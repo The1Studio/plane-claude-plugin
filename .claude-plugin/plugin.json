@@ -1,0 +1,13 @@
+{
+  "name": "plane",
+  "version": "1.0.0",
+  "description": "Plane project management integration. Create work items, triage intake, generate standups, and track cycle health directly from Claude Code.",
+  "author": {
+    "name": "Plane",
+    "url": "https://plane.so"
+  },
+  "homepage": "https://plane.so",
+  "repository": "https://github.com/makeplane/plane-claude-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["plane", "project-management", "issues", "work-items", "cycles", "mcp"]
+}

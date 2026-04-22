@@ -1,0 +1,6 @@
+{
+  "plane": {
+    "type": "http",
+    "url": "https://mcp.plane.so/http/mcp"
+  }
+}
