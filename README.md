@@ -5,8 +5,10 @@ Integrate [Plane](https://plane.so) — the open-source project management tool 
 ## What's included
 
 - **MCP server** — connects Claude Code to Plane over OAuth (Plane Cloud). All Plane tools (work items, cycles, modules, projects, intake, pages, and more) are available to Claude automatically.
+- **Skills** — bundled guidance that teaches Claude the semantics behind Plane features that aren't obvious from the API surface alone. See [`skills/`](./skills):
+  - [`workload-rollup`](./skills/workload-rollup/SKILL.md) — how estimated hours, due dates, and progress % roll up from sub-items to a parent work item (self-hosted fork only).
 
-That's it. No wrappers, no proxy scripts — just a thin plugin that wires Claude Code into Plane's hosted MCP server.
+That's it. No wrappers, no proxy scripts — just a thin plugin that wires Claude Code into Plane's hosted MCP server, plus the skill docs Claude needs to use it well.
 
 ## Install
 
