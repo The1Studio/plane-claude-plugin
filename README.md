@@ -8,6 +8,7 @@ Integrate [Plane](https://plane.so) — the open-source project management tool 
 - **Skills** — bundled guidance that teaches Claude the semantics behind Plane features that aren't obvious from the API surface alone. See [`skills/`](./skills):
   - [`workload-rollup`](./skills/workload-rollup/SKILL.md) — how estimated hours, due dates, and progress % roll up from sub-items to a parent work item (self-hosted fork only).
   - [`work-item-creation-defaults`](./skills/work-item-creation-defaults/SKILL.md) — why a new work item arrives assigned to you and due today, and how to create one that is deliberately unassigned or undated (self-hosted fork only).
+  - [`module-cascade`](./skills/module-cascade/SKILL.md) — how completing or cancelling a module can (only with an explicit opt-in) cascade that terminal status to its member work items and sub-items, why a plain status change never cascades, the 100-item cap that is a refusal rather than a truncation, and how terminal-group items prune their subtrees (self-hosted fork only).
 
 That's it. No wrappers, no proxy scripts — just a thin plugin that wires Claude Code into Plane's hosted MCP server, plus the skill docs Claude needs to use it well.
 
